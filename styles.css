@@ -1,0 +1,35 @@
+/*smooth scrolling*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*header full screen*/
+header {
+height: 100vh;
+}
+
+/*main fill the screen*/
+main {
+  min-height: 100vh;
+}
+
+/*center content in sections*/
+main section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*colored background of everyother section*/
+main section:nth-of-type(2n) {
+  background-color: cadetblue;
+}
+
+/*styling footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
