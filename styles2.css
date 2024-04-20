@@ -19,12 +19,19 @@ h2 {
   color:blue;
 }
 
-.table-stack {
-  display: block;
-  overflow-x: auto;
-  width: 100%;
-  max-width: 100%;
+/*styling table*/
+table {
+  border-collapse: collapse;
+     width: 100%;
 }
 
+tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+
 
